@@ -6,6 +6,17 @@ Machine learning algorithm fundamental knowledge, Including code implementation 
 - Implementing **Backpropogation** to train the model
 - Hand-write gradient calculation for backpropogation
 
+## [Optimizer Implementation and Understand Their Features](https://github.com/CChenLi/ML-Fundamental/blob/main/ML/optimizer.ipynb)
+- Implementation of common optimizers:
+  - **Gradient Descent**, **SGD**, **SGD + Momentum**, **AdaGrad**, **ADAM**
+  - Intuition behind each optimizer
+- Test the performance of each optimizers on test functions:
+  - **bowl**, **mult**, **monkey**, **matyas**, **Easom**
+- To test and compare each optimizer when 
+  - Contains **Local mins**
+  - Contains **Saddle**
+  - Hyperparameter is wrong
+
 ## [Convolution and Fourier Transform](https://github.com/CChenLi/ML-Fundamental/blob/main/ML/Conv_Fourier.ipynb)
 - Fundamental knowledge of convolution
 - Implement Conv2D with Numpy
