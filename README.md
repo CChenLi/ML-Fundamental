@@ -28,6 +28,14 @@ Machine learning algorithm fundamental knowledge, Including code implementation 
   - Convolution in frequency space is multiplication in time space
   - When Kernel is large, multiplication in Fourier space can enhance efficiency
 
+## [Meta Learning](https://github.com/CChenLi/ML-Fundamental/blob/main/ML/Meta_learning.ipynb)
+- Implement and test [Matching Network](https://arxiv.org/pdf/1606.04080.pdf) and [Prototypical Network](https://arxiv.org/abs/1703.05175)
+- N-way, K-shot classification on the Omniglot dataset
+- Personally, I prefer to call it Convolutional KNN, because under the hood the model finish the task by:
+  - Train a Conv encoder until the supporting sets are seperable in embedding space
+  - Then use the encoder to map the query image into embedding space and run KNN with supporting set in the embedding space to generate the prediction
+  - The only difference for **Matching Network** and **Prototypical Network** are the metric used for KNN
+
 ## [GAN](https://github.com/CChenLi/ML-Fundamental/blob/main/ML/GAN.ipynb)
 - Common Generative adversarial network on Minist dataset, nothing special
 
