@@ -28,6 +28,9 @@ Machine learning algorithm fundamental knowledge, Including code implementation 
   - Convolution in frequency space is multiplication in time space
   - When Kernel is large, multiplication in Fourier space can enhance efficiency
 
-## [GAN](https://github.com/CChenLi/ML-Fundamental/blob/main/ML/GAN.ipynb)
+### [GAN](https://github.com/CChenLi/ML-Fundamental/blob/main/ML/GAN.ipynb)
 - Common Generative adversarial network on Minist dataset, nothing special
+
+### [VAE](https://github.com/CChenLi/ML-Fundamental/blob/main/ML/VAE.ipynb)
+- Common Variational auto encoder on Minist dataset, nothing special
 
